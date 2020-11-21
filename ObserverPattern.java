@@ -20,7 +20,7 @@ class Subject{
     void notifyObservers(){
         Iterator<Observer> i = observers.iterator();
         while (i.hasNext()){
-            i.next().notify();
+            i.next().notify(this);
         }
     }
 }
