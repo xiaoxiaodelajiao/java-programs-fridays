@@ -25,7 +25,7 @@ class Subject{
     }
 }
 
-class ObserverPattern{
+public class ObserverPattern{
     public static void main(String[]args){
 
     }
